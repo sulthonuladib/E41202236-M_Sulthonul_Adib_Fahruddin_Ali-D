@@ -1,4 +1,4 @@
-package students;
+package Minggu2.students;
 
 public class Person {
     public String firstName;

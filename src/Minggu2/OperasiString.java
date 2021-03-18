@@ -1,3 +1,5 @@
+package Minggu2;
+
 public class OperasiString {
     public static void main(String[] args) {
         String s1 ="ABC";

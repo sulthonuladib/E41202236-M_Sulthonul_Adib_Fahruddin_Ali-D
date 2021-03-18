@@ -1,4 +1,4 @@
-package persons;
+package Minggu2.persons;
 
 public class Person {
     public String name;

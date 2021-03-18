@@ -1,4 +1,6 @@
-import persons.Person;
+package Minggu2;
+
+import Minggu2.persons.Person;
 
 public class ManagingPeople {
     public static void main(String[] args) {
