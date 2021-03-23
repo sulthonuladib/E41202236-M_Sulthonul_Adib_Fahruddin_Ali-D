@@ -22,7 +22,7 @@ public class Nomor5E {
 
         System.out.print("Masukkan pilihan anda: ");
         int menuPilihan = userInput.nextInt();
-        String hasilPilihan;
+        String hasilPilihan = "";
         switch (menuPilihan) {
             case 1: hasilPilihan = "Soft Drinks";
             break;
@@ -36,7 +36,7 @@ public class Nomor5E {
             break;
         }
 
-        System.out.println("Minimun yang anda pesan adalah " + menuPilihan);
+        System.out.println("Minimun yang anda pesan adalah " + hasilPilihan);
         System.out.println("Pesanan akan segera kami antar");
         System.out.println("Terimakasih " + namaPembeli + " telah berkunjung di Cafe Ceria");
 
