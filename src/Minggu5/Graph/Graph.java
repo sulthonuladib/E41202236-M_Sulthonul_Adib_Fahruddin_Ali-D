@@ -65,4 +65,25 @@ public class Graph {
             vertexList[i].wasVisited = false;
         }
     }
+
+    public void bfs() {
+        System.out.println("Visit by using BFS algorithm: ");
+        vertexList[0].wasVisited = true;
+        displayVertex(0);
+        theQueue.insert(0);
+
+        int v2;
+
+        while (!theQueue.isEmpty()) {
+            int v1 = (int) theQueue.remove();
+            while ((v2 = getAdjUnvisitedVertex(v1)) != -1) {
+                vertexList[v2].wasVisited = true;
+                displayVertex(v2);
+                theQueue.insert(v2);
+            }
+        }
+
+        System.out.println("");
+        resetFlags();
+    }
 }
